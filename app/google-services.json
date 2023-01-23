@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "985311449509",
+    "firebase_url": "https://mpmc-car-default-rtdb.firebaseio.com",
+    "project_id": "mpmc-car",
+    "storage_bucket": "mpmc-car.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:985311449509:android:fcf73c06273f0582b2584c",
+        "android_client_info": {
+          "package_name": "com.harry9425.mpmc"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "985311449509-dvrmmg6khqosng0a6ufe3qe5ks2dpveq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJ_W8acxkYed1Gg40EedapqoyTPn9BQHU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "985311449509-dvrmmg6khqosng0a6ufe3qe5ks2dpveq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
