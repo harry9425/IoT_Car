@@ -1,5 +1,5 @@
-# IoT_Car
-#Introducing LSCRB (Live Surveillance Car without Range Boundation), an innovative IoT project that combines the latest technology to create a surveillance car that can operate in potentially harmful conditions. This robot car is equipped with an inbuilt camera that is connected to an image processing model that detects any harmful things such as weapons. It is controlled through an android application on a mobile device, and it is connected to the internet using Firebase as the backend, resulting in an infinite communication range.
+# LSCRB 
+# Introducing LSCRB (Live Surveillance Car without Range Boundation), an innovative IoT project that combines the latest technology to create a surveillance car that can operate in potentially harmful conditions. This robot car is equipped with an inbuilt camera that is connected to an image processing model that detects any harmful things such as weapons. It is controlled through an android application on a mobile device, and it is connected to the internet using Firebase as the backend, resulting in an infinite communication range.
 
 ![WhatsApp Image 2023-01-24 at 1 22 52 AM](https://user-images.githubusercontent.com/101708836/214139112-f0353807-b81a-459d-8702-260d20a0f26c.jpeg)
 
