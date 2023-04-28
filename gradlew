@@ -1,3 +1,46 @@
+import RPi.GPIO as GPIO
+import time
+
+# Define the GPIO pins for the keypad matrix
+MATRIX = [[1, 2, 3, "A"],
+          [4, 5, 6, "B"],
+          [7, 8, 9, "C"],
+          ["*", 0, "#", "D"]]
+ROWS = [5, 6, 13, 19]
+COLS = [12, 16, 20, 21]
+
+# Set up the GPIO pins
+GPIO.setmode(GPIO.BCM)
+GPIO.setwarnings(False)
+
+for row in range(4):
+    GPIO.setup(ROWS[row], GPIO.OUT)
+    GPIO.output(ROWS[row], 1)
+
+for col in range(4):
+    GPIO.setup(COLS[col], GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
+
+# Define a function to read the input from the keypad
+def read_keypad():
+    code = ""
+    while True:
+        for col in range(4):
+            GPIO.output(ROWS[col], 0)
+            for row in range(4):
+                if GPIO.input(COLS[row]) == 1:
+                    code += str(MATRIX[col][row])
+                    time.sleep(0.1)
+            GPIO.output(ROWS[col], 1)
+        if len(code) > 0:
+            return code
+
+# Call the read_keypad function to read input from the keypad and store it in a string
+entered_code = read_keypad()
+print("Entered code: " + entered_code)
+
+
+
+
 #!/usr/bin/env sh
 
 #
