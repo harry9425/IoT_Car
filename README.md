@@ -3,7 +3,7 @@ Introducing LSCRB (Live Surveillance Car without Range Boundation), an innovativ
 
 ![WhatsApp Image 2023-01-24 at 1 22 52 AM](https://user-images.githubusercontent.com/101708836/214139112-f0353807-b81a-459d-8702-260d20a0f26c.jpeg)
 
-# We are proud to inform you that we won the first prize in the competition organized on National Engineering Day by our college with this project.
+# We are proud to inform you that we won the first prize in the Annual Inter- College Hackathon organized on National Engineering Day by our college with this project.
 
 ![WhatsApp Image 2023-01-24 at 1 22 53 AM](https://user-images.githubusercontent.com/101708836/214139105-ef6c7fb5-0c4b-4914-a9e4-e568bcf25deb.jpeg)
 
